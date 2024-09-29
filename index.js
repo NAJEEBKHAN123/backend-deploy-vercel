@@ -4,7 +4,7 @@ const app = express()
 const PORT = 3000;
 
 app.get('/', (req, res) =>{
-    res.status(200).json({message: 'Fetching all users on / path'})
+    res.status(200).json({message: 'Fetching all users on / pathj'})
 })
 app.get('/api/users', (req, res) =>{
     res.status(200).json({message: 'Fetching all users'})
